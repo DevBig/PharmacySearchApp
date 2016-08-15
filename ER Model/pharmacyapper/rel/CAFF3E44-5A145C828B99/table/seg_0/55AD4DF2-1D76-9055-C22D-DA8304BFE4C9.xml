@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55AD4DF2-1D76-9055-C22D-DA8304BFE4C9" name="USER">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 21:44:56 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USER" id="FE957B6F-1791-2F98-0822-CE58C41AEACE">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 21:45:55 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FRIST_NAME" id="93FF976B-3F04-F4B0-E1BC-6596ADC6A279">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:09:29 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="D5ABA110-0603-BAF6-2B1E-AE5F7690EEA9">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:09:29 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVICE_ID" id="8BE6B448-B29E-181A-0B42-660A2FAC205A">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:12:13 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62B5271F-910E-EF60-5652-571E134519E8" name="USER_PK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 21:45:55 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE957B6F-1791-2F98-0822-CE58C41AEACE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

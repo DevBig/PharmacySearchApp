@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F1FE3D5-6B54-9734-582C-23CC334A7709" name="DEVICE">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:10:01 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEVICE_ID" id="23342B00-9EC2-55FD-D9A7-749A81E96A28">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:10:46 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVICE_TYPE_ID" id="82DEBD41-9331-439E-8368-BF1828C5CEB4">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:11:48 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7665926-2BD0-FA8E-2A2D-493369061F4D" referredColumn="F8EE8782-8521-2FC7-9843-415C48228D48"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1064CEDE-E4BB-0369-9DE2-4CC74D1D0F8A" name="DEVICE_PK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:10:46 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23342B00-9EC2-55FD-D9A7-749A81E96A28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9A8E234-AE7F-D031-E739-0F8923ECAEAC" name="DEVICE_DEVICE_TYPE_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:11:48 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82DEBD41-9331-439E-8368-BF1828C5CEB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

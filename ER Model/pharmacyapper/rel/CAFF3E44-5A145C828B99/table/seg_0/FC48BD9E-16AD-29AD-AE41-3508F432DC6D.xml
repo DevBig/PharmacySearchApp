@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC48BD9E-16AD-29AD-AE41-3508F432DC6D" name="AVAILABILITY">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 21:55:35 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRODUCT" id="5C4E171C-E5D8-D990-91A1-3413832FD8F9">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 21:56:21 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB917E0F-8350-A7A3-6878-5EB76EE4CCA1" referredColumn="66C07618-F426-F88F-2033-1615F5622A76"/>
+</associations>
+</Column>
+<Column name="ID_PHARMACY" id="C94CC141-D0B5-645C-D86B-C8D30352E2CA">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 21:56:21 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4760EE2C-EA11-6787-F044-120B3BF7B0FE" referredColumn="B9AC3C09-0049-E794-62C8-9612FC1136E2"/>
+</associations>
+</Column>
+<Column name="QUANTITY" id="8FB3074D-D9DD-0C61-44E3-FB3DAE87E67B">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 22:25:07 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURRENT_PRICE" id="5EE5380F-335A-04A8-987B-821C3AA296A1">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 21:57:41 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTEST_REFRESH_TIME" id="42680946-BAE6-3467-F8C6-4113CA9DAEA0">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:13:06 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="689AA362-A36F-AC7A-0F00-E8BFDAE7C0E7" name="TABLE_6_MEDECINE_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 21:56:21 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C4E171C-E5D8-D990-91A1-3413832FD8F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13EE4AAD-198A-E4F7-3F6A-4634F60AB23E" name="AVAILABILITY_PHAMACY_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 21:57:26 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C94CC141-D0B5-645C-D86B-C8D30352E2CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

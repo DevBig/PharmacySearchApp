@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06B0A1B3-D676-BF17-CEFF-5B12A16BC85E" name="PRODUCT_MANUFACTURER">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 22:15:46 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MANUFACTURER" id="09962B3E-32B7-260A-21CA-0D5DB991075F">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 22:16:45 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MANUFACTURER_NAME" id="C3CE3A06-1703-EEFF-0C74-07BCF6C5FA98">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 22:16:45 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MANUFACTURER_ADDRESS" id="CE7564C2-2B6E-2969-8E94-5F2DC6630E74">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 22:17:34 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DE63B72-1DC4-64FB-1888-B79335A51613" name="PRODUCT_MANUFACTURER_PK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 22:16:45 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09962B3E-32B7-260A-21CA-0D5DB991075F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

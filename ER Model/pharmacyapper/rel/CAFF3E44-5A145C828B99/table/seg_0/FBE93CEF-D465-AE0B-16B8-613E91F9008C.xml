@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FBE93CEF-D465-AE0B-16B8-613E91F9008C" name="EMPLOYEE">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 22:10:06 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EMPLOYEE" id="8BED1BD6-D6F1-0097-BE03-BDD06B8597D3">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 22:10:52 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FRIST_NAME" id="4D99C0EC-E107-7166-976A-B82A48653B53">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 22:10:52 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="91512E9C-1AA4-52F4-6D0E-9158B904DF9D">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 22:10:52 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PHARMACY" id="E6E8C10A-3EAA-A77A-3862-F023B4D5A864">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 22:11:30 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F813B77D-7DA7-C752-79FA-9FF0B1D4E683" referredColumn="B9AC3C09-0049-E794-62C8-9612FC1136E2"/>
+</associations>
+</Column>
+<Column name="WORK_START_DATE" id="5ADC80A1-28A3-58B4-828A-94DB55EC6FDC">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 22:19:50 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WORK_END_DATE" id="4A52E53B-C147-D46F-F5AB-44D3F8AA2C6D">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 22:19:50 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1BA8206-8138-388A-D9E0-DCD87A8A27B3" name="EMPLOYEE_PK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 22:10:52 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BED1BD6-D6F1-0097-BE03-BDD06B8597D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2668D65D-4A1E-28BF-D84B-95334728E4EB" name="EMPLOYEE_PHARMACY_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 22:11:30 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6E8C10A-3EAA-A77A-3862-F023B4D5A864"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

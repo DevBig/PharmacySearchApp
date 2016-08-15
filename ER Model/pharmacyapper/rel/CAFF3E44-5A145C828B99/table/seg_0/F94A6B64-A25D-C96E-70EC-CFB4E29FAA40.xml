@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F94A6B64-A25D-C96E-70EC-CFB4E29FAA40" name="TOWN">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:00:44 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TOWN_ID" id="9EA2CD28-BEE8-8240-72D0-CB387CF08EAD">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:01:32 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOWN_NAME" id="889D1705-673F-56F0-39D0-E719A42353F5">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:01:32 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_ID" id="B4205785-95DB-DBD8-6BBE-29B1B35C68DB">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:01:32 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E444DDA-4753-1FEC-DA12-E2840300B9A1" referredColumn="AA86A095-C45C-0064-19B8-A2471750247D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F34A4597-D590-2ED5-C411-7FA324B589E3" name="TOWN_PK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:01:32 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EA2CD28-BEE8-8240-72D0-CB387CF08EAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3924D59C-C72B-E1EB-9901-A44B98549273" name="TABLE_11_COUNTRY_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:01:32 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4205785-95DB-DBD8-6BBE-29B1B35C68DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

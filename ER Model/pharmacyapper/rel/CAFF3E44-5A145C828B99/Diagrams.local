@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="33818C90-970C-E3AA-DA32-E7C3727F1204" name="PharmacyER" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

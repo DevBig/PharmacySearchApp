@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F491A142-B0AF-7284-BD8D-C33402F2F4AD" name="SEARCH">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 21:47:08 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USER" id="B0F634F7-69FC-8F86-C116-AAF560959956">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 21:48:15 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DBB1BE9-D1A6-04FB-8F01-B81616A5A725" referredColumn="FE957B6F-1791-2F98-0822-CE58C41AEACE"/>
+</associations>
+</Column>
+<Column name="ID_MEDECINE" id="82BC6129-B2F0-7FAC-D6FF-2DE384C0D612">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 21:48:15 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89537405-EFAD-58D2-C03E-18EB3BF1B7C5" referredColumn="66C07618-F426-F88F-2033-1615F5622A76"/>
+</associations>
+</Column>
+<Column name="DATETIME" id="3E22D991-7451-466F-4ADA-1F62A11D696B">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 21:48:15 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USED_DEVICE" id="9FBA7337-81A7-A4BB-2FD8-480111448CD7">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:19:23 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C4C525C-2E73-7385-F170-51B069B663D6" referredColumn="23342B00-9EC2-55FD-D9A7-749A81E96A28"/>
+</associations>
+</Column>
+<Column name="SEARCH_LOCATION" id="17CE1B65-2F3B-7BF7-5E0E-C09985F01254">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:21:47 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5982D4F9-E281-175C-012A-02DDE8C49440" referredColumn="7E4C3F56-52F0-F81B-A505-F4F201D600C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22C091AD-B5A5-186C-F4AB-9D0D7A1AE10B" name="SEARCH_USER_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 21:49:53 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0F634F7-69FC-8F86-C116-AAF560959956"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="091B1C9E-3C61-69C8-D236-0664691F2F47" name="SEARCH_MEDECINE_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 21:49:53 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82BC6129-B2F0-7FAC-D6FF-2DE384C0D612"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C156FCB-A1B1-A737-7A48-36C308DE94E7" name="SEARCH_DEVICE_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:19:23 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FBA7337-81A7-A4BB-2FD8-480111448CD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32C23A2B-6C90-6235-8726-112EAD004830" name="SEARCH_PREMISE_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:21:57 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17CE1B65-2F3B-7BF7-5E0E-C09985F01254"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

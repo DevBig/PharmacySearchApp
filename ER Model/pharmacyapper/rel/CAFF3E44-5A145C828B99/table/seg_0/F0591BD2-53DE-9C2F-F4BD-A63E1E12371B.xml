@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0591BD2-53DE-9C2F-F4BD-A63E1E12371B" name="PREMISE">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:01:47 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PREMISE_ID" id="7E4C3F56-52F0-F81B-A505-F4F201D600C8">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:03:55 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOWN_ID" id="36145E82-40F7-D9A5-457F-553BBE9148F6">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:03:55 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="684ADDD0-6C6C-88D6-751C-A77CEF1DBC3A" referredColumn="9EA2CD28-BEE8-8240-72D0-CB387CF08EAD"/>
+</associations>
+</Column>
+<Column name="PREMISE_NAME" id="9CF032EE-863D-53E8-395D-6A3754A49F4F">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:03:55 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C7707EA-26F2-950B-5F78-9391B8607553" name="PREMISE_PK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:03:55 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E4C3F56-52F0-F81B-A505-F4F201D600C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D7B0A48-C763-AFC9-A3A7-03D19921097F" name="TABLE_12_TOWN_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 22:03:55 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36145E82-40F7-D9A5-457F-553BBE9148F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

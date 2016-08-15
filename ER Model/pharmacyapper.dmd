@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="pharmacyapper" id="F893C70C-8CE1-260C-D985-66E25C9DA0C4" version="3.5">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-07-28 21:43:11 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F893C70C-8CE1-260C-D985-66E25C9DA0C4</designId>
+</OSDM_Design>
