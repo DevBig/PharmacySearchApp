@@ -5,4 +5,4 @@ Here is the url to download the tool from Oracle Technology Network: http://www.
 Accept the license agreement and proceed.
 
 When the download is done, unzip the file and run the datamodeler.exe app
-When opened, click File->Import and navigate to open the pharmacyapper.dmd in this project.
+When opened, click File->Open and navigate to open the pharmacyapper.dmd in this project.
