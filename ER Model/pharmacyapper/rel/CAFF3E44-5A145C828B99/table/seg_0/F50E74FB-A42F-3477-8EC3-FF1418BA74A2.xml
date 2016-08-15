@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F50E74FB-A42F-3477-8EC3-FF1418BA74A2" name="LANGUAGE">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 23:34:07 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LANGUAGE" id="A8124F52-DA92-75C2-57E4-3212268CD75B">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 23:35:01 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LANGUAGE_NAME" id="D0BC4300-91F2-F064-E4BE-93C2034E81B7">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 23:35:01 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2403B918-F6EE-3D0D-6E6C-246B1ED4DC23" name="LANGUAGE_PK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 23:38:11 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8124F52-DA92-75C2-57E4-3212268CD75B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
