@@ -27,6 +27,26 @@
 <colAssociation fkAssociation="A7665926-2BD0-FA8E-2A2D-493369061F4D" referredColumn="F8EE8782-8521-2FC7-9843-415C48228D48"/>
 </associations>
 </Column>
+<Column name="MANUFACTURER_ID" id="C04FF955-B36A-11BC-0F69-4E6C08ECEAF9">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-22 18:53:40 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47D668EA-A409-030E-B7B3-35A4962E6079" referredColumn="9D4E64E2-5D6E-0198-B971-8F4CE538FB68"/>
+</associations>
+</Column>
+<Column name="DEVICE_NAME" id="1EB78B11-A108-E24A-7A65-9389EC721B0D">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-22 18:55:08 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="1064CEDE-E4BB-0369-9DE2-4CC74D1D0F8A" name="DEVICE_PK">
@@ -48,6 +68,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="82DEBD41-9331-439E-8368-BF1828C5CEB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="184A2AB3-CF59-36A8-3050-762B9B9DC74F" name="DEVICE_DEVICE_MANUFACTURER_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-22 18:53:40 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C04FF955-B36A-11BC-0F69-4E6C08ECEAF9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -19,7 +19,7 @@
 <colAssociation fkAssociation="9DBB1BE9-D1A6-04FB-8F01-B81616A5A725" referredColumn="FE957B6F-1791-2F98-0822-CE58C41AEACE"/>
 </associations>
 </Column>
-<Column name="ID_MEDECINE" id="82BC6129-B2F0-7FAC-D6FF-2DE384C0D612">
+<Column name="ID_PRODUCT" id="82BC6129-B2F0-7FAC-D6FF-2DE384C0D612">
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-07-28 21:48:15 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
@@ -30,7 +30,7 @@
 <colAssociation fkAssociation="89537405-EFAD-58D2-C03E-18EB3BF1B7C5" referredColumn="66C07618-F426-F88F-2033-1615F5622A76"/>
 </associations>
 </Column>
-<Column name="DATETIME" id="3E22D991-7451-466F-4ADA-1F62A11D696B">
+<Column name="SEARCH_TIME" id="3E22D991-7451-466F-4ADA-1F62A11D696B">
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-07-28 21:48:15 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
