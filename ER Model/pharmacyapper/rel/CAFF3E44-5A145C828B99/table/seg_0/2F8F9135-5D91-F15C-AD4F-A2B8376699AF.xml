@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B428821-3938-7C03-02EC-92E7D06058F3" name="PRODUCT_TYPE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F8F9135-5D91-F15C-AD4F-A2B8376699AF" name="PERSON">
 <createdBy>Joel Mengolo</createdBy>
-<createdTime>2016-08-15 22:02:23 UTC</createdTime>
+<createdTime>2016-09-09 15:54:05 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
-<ordsAlias>table_11</ordsAlias>
+<ordsAlias>table_15</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_PRODUCT_TYPE" id="689A049D-772B-FDB3-C503-57DAF0B73E93">
+<Column name="ID_PERSON" id="3BBF269D-E020-4B97-75C7-BEFEE7EDCACC">
 <createdBy>Joel Mengolo</createdBy>
-<createdTime>2016-08-15 22:03:15 UTC</createdTime>
+<createdTime>2016-09-09 15:58:43 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,29 +19,41 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PRODUCT_TYPE_NAME" id="D908F0D4-DF5B-DB39-3B0C-26AA607B41FC">
+<Column name="FRIST_NAME" id="10D287EE-2AB3-FC6A-F84C-BF3F82CE07E3">
 <createdBy>Joel Mengolo</createdBy>
-<createdTime>2016-08-15 22:04:18 UTC</createdTime>
+<createdTime>2016-09-09 15:58:43 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="8BDCA2CC-81F6-E31D-E717-066D37BEBAEF">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-09 15:58:43 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="76147B22-2554-C946-42EC-F491BACA1F6E" name="PRODUCT_TYPE_PK">
+<ind_PK_UK id="8A387513-F554-29CA-BF63-B6244562E1FF" name="PERSON_PK">
 <createdBy>Joel Mengolo</createdBy>
-<createdTime>2016-08-15 22:03:15 UTC</createdTime>
+<createdTime>2016-09-09 15:58:43 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="689A049D-772B-FDB3-C503-57DAF0B73E93"/>
+<colUsage columnID="3BBF269D-E020-4B97-75C7-BEFEE7EDCACC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

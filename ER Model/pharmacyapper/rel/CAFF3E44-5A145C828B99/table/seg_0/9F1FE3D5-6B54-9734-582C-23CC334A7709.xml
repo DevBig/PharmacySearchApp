@@ -12,15 +12,21 @@
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-07-28 22:10:46 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="DEVICE_TYPE_ID" id="82DEBD41-9331-439E-8368-BF1828C5CEB4">
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-07-28 22:11:48 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -31,7 +37,9 @@
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-08-22 18:53:40 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -43,8 +51,11 @@
 <createdTime>2016-08-22 18:55:08 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

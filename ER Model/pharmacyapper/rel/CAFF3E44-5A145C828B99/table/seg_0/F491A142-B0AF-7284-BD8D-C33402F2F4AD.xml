@@ -12,18 +12,21 @@
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-07-28 21:48:15 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="9DBB1BE9-D1A6-04FB-8F01-B81616A5A725" referredColumn="FE957B6F-1791-2F98-0822-CE58C41AEACE"/>
-</associations>
 </Column>
 <Column name="ID_PRODUCT" id="82BC6129-B2F0-7FAC-D6FF-2DE384C0D612">
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-07-28 21:48:15 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -35,7 +38,9 @@
 <createdTime>2016-07-28 21:48:15 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -43,7 +48,10 @@
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-07-28 22:19:23 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -54,11 +62,44 @@
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-07-28 22:21:47 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="5982D4F9-E281-175C-012A-02DDE8C49440" referredColumn="7E4C3F56-52F0-F81B-A505-F4F201D600C8"/>
+</associations>
+</Column>
+<Column name="USER_DEVICE_ID" id="5E6EBA0D-87F9-8C74-6C84-FE1B6A8F26A5">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-09 15:59:13 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DBB1BE9-D1A6-04FB-8F01-B81616A5A725" referredColumn="8BE6B448-B29E-181A-0B42-660A2FAC205A"/>
+</associations>
+</Column>
+<Column name="USER_ID_PERSON" id="2D8E9225-5C9E-584B-37C8-3D975B82CE8F">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-09 16:20:28 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DBB1BE9-D1A6-04FB-8F01-B81616A5A725" referredColumn="FE957B6F-1791-2F98-0822-CE58C41AEACE"/>
 </associations>
 </Column>
 </columns>
@@ -70,7 +111,8 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B0F634F7-69FC-8F86-C116-AAF560959956"/>
+<colUsage columnID="5E6EBA0D-87F9-8C74-6C84-FE1B6A8F26A5"/>
+<colUsage columnID="2D8E9225-5C9E-584B-37C8-3D975B82CE8F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="091B1C9E-3C61-69C8-D236-0664691F2F47" name="SEARCH_MEDECINE_FK">

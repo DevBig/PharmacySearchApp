@@ -12,8 +12,11 @@
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-07-28 21:55:17 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PHARMACY_NAME" id="0FBEA974-80A3-CC0A-E0FE-CA0EB4368AA2">
@@ -21,15 +24,21 @@
 <createdTime>2016-08-15 22:14:59 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="LOCATION" id="0D019BD5-46DC-E5BE-DF4C-3A5693E3A12D">
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-07-28 22:04:38 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -41,8 +50,11 @@
 <createdTime>2016-08-15 22:17:14 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PHONE_NUMBER" id="FA73FDEA-5DE8-3277-DE40-540B2B1DDA1E">
@@ -50,8 +62,11 @@
 <createdTime>2016-08-15 22:14:25 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="FAX" id="C41F985F-9808-15C0-3517-803A7F2A2E54">
@@ -59,9 +74,26 @@
 <createdTime>2016-08-15 22:14:33 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APP_MANAGER" id="28B97454-1852-1DCC-32F6-E9A529C332EF">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-09 16:30:01 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A68D6195-0EC8-C04E-EFFF-9D2A70D0B71B" referredColumn="8BED1BD6-D6F1-0097-BE03-BDD06B8597D3"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -84,6 +116,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0D019BD5-46DC-E5BE-DF4C-3A5693E3A12D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F995F2D9-DD58-15AA-EB33-AE97FBB20EC2" name="PHARMACY_EMPLOYEE_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-09 16:30:01 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28B97454-1852-1DCC-32F6-E9A529C332EF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -12,8 +12,11 @@
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-07-28 22:01:32 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="TOWN_NAME" id="889D1705-673F-56F0-39D0-E719A42353F5">
@@ -21,19 +24,40 @@
 <createdTime>2016-07-28 22:01:32 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="COUNTRY_ID" id="B4205785-95DB-DBD8-6BBE-29B1B35C68DB">
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-07-28 22:01:32 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="3E444DDA-4753-1FEC-DA12-E2840300B9A1" referredColumn="AA86A095-C45C-0064-19B8-A2471750247D"/>
+</associations>
+</Column>
+<Column name="COUNTRY_NAME" id="95428E1C-F092-3B40-5085-A91AD9CA89F8">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-09 16:07:53 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E444DDA-4753-1FEC-DA12-E2840300B9A1" referredColumn="35A9712B-75A0-94F9-D7F2-FF3D55F8E55C"/>
 </associations>
 </Column>
 </columns>
@@ -57,6 +81,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B4205785-95DB-DBD8-6BBE-29B1B35C68DB"/>
+<colUsage columnID="95428E1C-F092-3B40-5085-A91AD9CA89F8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

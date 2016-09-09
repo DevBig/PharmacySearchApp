@@ -12,17 +12,22 @@
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-07-28 22:00:40 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="COUNTRY_NAME" id="35A9712B-75A0-94F9-D7F2-FF3D55F8E55C">
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-07-28 22:00:40 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -36,6 +41,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="AA86A095-C45C-0064-19B8-A2471750247D"/>
+<colUsage columnID="35A9712B-75A0-94F9-D7F2-FF3D55F8E55C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
