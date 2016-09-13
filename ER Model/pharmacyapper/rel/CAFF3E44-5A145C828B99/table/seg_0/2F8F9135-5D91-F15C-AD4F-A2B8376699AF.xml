@@ -43,6 +43,20 @@
 <ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="LANGAGE" id="5C05A80F-4B11-AD8E-0673-D9C68966D16E">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:00:42 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20C048DD-010F-6934-7C0A-5F82A7130920" referredColumn="7A1A76C9-1724-FE31-928C-98BCFA88844B"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8A387513-F554-29CA-BF63-B6244562E1FF" name="PERSON_PK">
@@ -54,6 +68,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3BBF269D-E020-4B97-75C7-BEFEE7EDCACC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E9D452B-3ED5-7408-8C4F-1AF8143E2C69" name="PERSON_LANGUAGE_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:00:42 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C05A80F-4B11-AD8E-0673-D9C68966D16E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

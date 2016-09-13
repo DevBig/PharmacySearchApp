@@ -59,6 +59,28 @@
 <ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="TREATMENT" id="471EC811-20ED-5E64-CA58-4B9BED3F00FB">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:25:30 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERIC" id="323FEE15-1A55-A24A-2067-B66997EAB1EF">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:39:00 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="12C3B0F9-F8AA-9703-09AC-0A2B69C0388F" name="MEDECINE_PK">

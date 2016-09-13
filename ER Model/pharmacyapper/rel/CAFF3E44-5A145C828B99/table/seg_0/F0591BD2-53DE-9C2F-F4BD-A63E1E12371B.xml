@@ -19,7 +19,7 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TOWN_ID" id="36145E82-40F7-D9A5-457F-553BBE9148F6">
+<Column name="DISTRICT_ID" id="36145E82-40F7-D9A5-457F-553BBE9148F6">
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-07-28 22:03:55 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
@@ -30,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="684ADDD0-6C6C-88D6-751C-A77CEF1DBC3A" referredColumn="9EA2CD28-BEE8-8240-72D0-CB387CF08EAD"/>
+<colAssociation fkAssociation="6D216F55-01F6-8B00-D80D-5EAEB4C6D611" referredColumn="C215A2DB-291C-EEA9-0679-1B57AF93CD89"/>
 </associations>
 </Column>
 <Column name="PREMISE_NAME" id="9CF032EE-863D-53E8-395D-6A3754A49F4F">
@@ -58,9 +58,9 @@
 <colUsage columnID="7E4C3F56-52F0-F81B-A505-F4F201D600C8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9D7B0A48-C763-AFC9-A3A7-03D19921097F" name="TABLE_12_TOWN_FK">
+<ind_PK_UK id="CC15B8EA-F39D-AD67-751E-231BE6C2202B" name="PREMISE_DISTRICT_FK">
 <createdBy>Joel Mengolo</createdBy>
-<createdTime>2016-07-28 22:03:55 UTC</createdTime>
+<createdTime>2016-09-13 03:43:14 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
