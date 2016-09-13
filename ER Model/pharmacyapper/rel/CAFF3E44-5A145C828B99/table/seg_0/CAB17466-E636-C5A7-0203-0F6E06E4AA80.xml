@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CAB17466-E636-C5A7-0203-0F6E06E4AA80" name="DISEASE">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:33:14 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DISEASE_ID" id="945CA088-3E9F-FE72-415F-299BF89F8D6B">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:34:13 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISEASE_NAME" id="94CAD94B-375D-95E0-3F0B-15D14288C25E">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:34:13 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08E1584A-940A-BDC7-ACDF-3288F7A6AB98" name="DISEASE_PK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:34:13 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="945CA088-3E9F-FE72-415F-299BF89F8D6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

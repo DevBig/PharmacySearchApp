@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="20C048DD-010F-6934-7C0A-5F82A7130920" containerWithKeyObject="2F8F9135-5D91-F15C-AD4F-A2B8376699AF" localFKIndex="6E9D452B-3ED5-7408-8C4F-1AF8143E2C69" name="PERSON_LANGUAGE_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:00:42 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A5752FD2-DF35-CDD6-F33F-F122D334D879</referredTableID>
+<keyObject>07BD25BC-7EBD-C9F0-069A-2AFF0BD0CF56</keyObject>
+<referredKeyID>07BD25BC-7EBD-C9F0-069A-2AFF0BD0CF56</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

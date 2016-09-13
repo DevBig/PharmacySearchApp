@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CEF8C68-1C6E-86ED-833C-E0FFD26A7E61" name="TREATMENT">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:21:55 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DISEASE_ID" id="B4C292E0-90A0-E037-7E07-3427767E9349">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:23:37 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7388BE2-3926-2A23-3931-F932508C79C9" referredColumn="945CA088-3E9F-FE72-415F-299BF89F8D6B"/>
+</associations>
+</Column>
+<Column name="PRODUCT_ID" id="FBA0D9CE-083E-C1AE-C40B-4B71B6D3AC6C">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:23:37 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15ADBD75-61B2-9536-A474-D6191B298D95" referredColumn="66C07618-F426-F88F-2033-1615F5622A76"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89DE9600-D846-184B-61AA-F4B044F9F783" name="TREATMENT_PK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:24:52 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4C292E0-90A0-E037-7E07-3427767E9349"/>
+<colUsage columnID="FBA0D9CE-083E-C1AE-C40B-4B71B6D3AC6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82209206-5E88-7C89-E48D-CD221A8E52EA" name="TREATMENT_DISEASE_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:36:10 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4C292E0-90A0-E037-7E07-3427767E9349"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7742A06E-A941-D5AA-8223-42B86FF1AEFE" name="TREATMENT_PRODUCT_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:36:10 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBA0D9CE-083E-C1AE-C40B-4B71B6D3AC6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

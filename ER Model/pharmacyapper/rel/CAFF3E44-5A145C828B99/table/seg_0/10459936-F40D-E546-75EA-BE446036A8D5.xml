@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10459936-F40D-E546-75EA-BE446036A8D5" name="SUBSTITUTE">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:25:51 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MASTER_PRODUCT" id="CF99B138-3329-F64F-3CC8-7B18C8237FCF">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:31:34 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD4F49E5-8CCF-56E1-A1F2-A208A24E4ACB" referredColumn="66C07618-F426-F88F-2033-1615F5622A76"/>
+</associations>
+</Column>
+<Column name="SUBSTITUTE_PROD" id="202DACC6-2E89-82A2-5FC6-47C630E19539">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:31:34 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9B8C043-BA18-3B3D-CDC6-16D54B9ADA94" referredColumn="66C07618-F426-F88F-2033-1615F5622A76"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6B42A92-7124-859E-5F4B-F12B349EE03C" name="SUBSTITUTE_PK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:31:34 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF99B138-3329-F64F-3CC8-7B18C8237FCF"/>
+<colUsage columnID="202DACC6-2E89-82A2-5FC6-47C630E19539"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68BA0EBF-BEC0-F552-77F4-C1D7C0100543" name="SUBSTITUTE_PRODUCT_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:31:34 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF99B138-3329-F64F-3CC8-7B18C8237FCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5B40310-0D52-6B95-3172-20664EF0CCB1" name="SUBSTITUTE_PRODUCT_FKv2">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-13 03:31:34 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="202DACC6-2E89-82A2-5FC6-47C630E19539"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
