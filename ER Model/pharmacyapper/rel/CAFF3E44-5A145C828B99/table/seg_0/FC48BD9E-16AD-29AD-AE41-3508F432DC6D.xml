@@ -71,7 +71,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="689AA362-A36F-AC7A-0F00-E8BFDAE7C0E7" name="TABLE_6_MEDECINE_FK">
+<ind_PK_UK id="689AA362-A36F-AC7A-0F00-E8BFDAE7C0E7" name="PRODUCT_PHARMACY_FK">
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-07-28 21:56:21 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>

@@ -91,9 +91,33 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_ID_PERSON" id="7F939D92-BCE4-BC69-72B4-F1F6A59DCF1D">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-10-14 00:29:09 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="A68D6195-0EC8-C04E-EFFF-9D2A70D0B71B" referredColumn="8BED1BD6-D6F1-0097-BE03-BDD06B8597D3"/>
 </associations>
+</Column>
+<Column name="ON_DUTY" id="EF1AF2E8-7D71-A0CE-A918-B21B6F934847">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-10-15 20:44:39 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -125,7 +149,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="28B97454-1852-1DCC-32F6-E9A529C332EF"/>
+<colUsage columnID="7F939D92-BCE4-BC69-72B4-F1F6A59DCF1D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

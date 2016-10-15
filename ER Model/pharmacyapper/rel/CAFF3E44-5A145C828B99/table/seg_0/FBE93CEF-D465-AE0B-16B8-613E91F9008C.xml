@@ -8,6 +8,20 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PHARMACY" id="E6E8C10A-3EAA-A77A-3862-F023B4D5A864">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-08-15 22:11:30 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F813B77D-7DA7-C752-79FA-9FF0B1D4E683" referredColumn="B9AC3C09-0049-E794-62C8-9612FC1136E2"/>
+</associations>
+</Column>
 <Column name="ID_PERSON" id="8BED1BD6-D6F1-0097-BE03-BDD06B8597D3">
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-08-15 22:10:52 UTC</createdTime>
@@ -20,19 +34,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="32735F9C-54A1-5A26-5D6F-3D621FECDE97" referredColumn="3BBF269D-E020-4B97-75C7-BEFEE7EDCACC"/>
-</associations>
-</Column>
-<Column name="ID_PHARMACY" id="E6E8C10A-3EAA-A77A-3862-F023B4D5A864">
-<createdBy>Joel Mengolo</createdBy>
-<createdTime>2016-08-15 22:11:30 UTC</createdTime>
-<ownerDesignName>pharmacyapper</ownerDesignName>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F813B77D-7DA7-C752-79FA-9FF0B1D4E683" referredColumn="B9AC3C09-0049-E794-62C8-9612FC1136E2"/>
 </associations>
 </Column>
 <Column name="WORK_START_DATE" id="5ADC80A1-28A3-58B4-828A-94DB55EC6FDC">
@@ -57,6 +58,28 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="SHIFT_START" id="2A9C25A9-6FBF-2365-045F-D074F52951FE">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-10-15 20:52:29 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHIFT_END" id="7FF3DBB6-6F45-4062-1F8E-22411999B3CE">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-10-15 20:52:29 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="C1BA8206-8138-388A-D9E0-DCD87A8A27B3" name="EMPLOYEE_PK">
@@ -68,7 +91,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8BED1BD6-D6F1-0097-BE03-BDD06B8597D3"/>
-<colUsage columnID="E6E8C10A-3EAA-A77A-3862-F023B4D5A864"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="2668D65D-4A1E-28BF-D84B-95334728E4EB" name="EMPLOYEE_PHARMACY_FK">

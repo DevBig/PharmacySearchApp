@@ -42,7 +42,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="3E444DDA-4753-1FEC-DA12-E2840300B9A1" referredColumn="AA86A095-C45C-0064-19B8-A2471750247D"/>
+<colAssociation fkAssociation="5E67E0A3-E75E-9944-4EFC-E57D1DF614F4" referredColumn="AA86A095-C45C-0064-19B8-A2471750247D"/>
 </associations>
 </Column>
 <Column name="COUNTRY_NAME" id="95428E1C-F092-3B40-5085-A91AD9CA89F8">
@@ -53,12 +53,8 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="3E444DDA-4753-1FEC-DA12-E2840300B9A1" referredColumn="35A9712B-75A0-94F9-D7F2-FF3D55F8E55C"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -73,15 +69,14 @@
 <colUsage columnID="9EA2CD28-BEE8-8240-72D0-CB387CF08EAD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3924D59C-C72B-E1EB-9901-A44B98549273" name="TABLE_11_COUNTRY_FK">
+<ind_PK_UK id="8334AD5B-3376-D04C-27D3-7C97E33F87E4" name="TOWN_COUNTRY_FK">
 <createdBy>Joel Mengolo</createdBy>
-<createdTime>2016-07-28 22:01:32 UTC</createdTime>
+<createdTime>2016-10-15 21:07:34 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B4205785-95DB-DBD8-6BBE-29B1B35C68DB"/>
-<colUsage columnID="95428E1C-F092-3B40-5085-A91AD9CA89F8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCF1A211-118C-F2C3-6A52-6EEA301607A9" name="PRODUCT">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D45CF1F6-69AE-8203-F5E0-5952509AA535" name="LANGUAGE_SKILLS">
 <createdBy>Joel Mengolo</createdBy>
-<createdTime>2016-07-28 21:45:59 UTC</createdTime>
+<createdTime>2016-10-14 00:14:42 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
-<ordsAlias>table_2</ordsAlias>
+<ordsAlias>table_23</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_PRODUCT" id="66C07618-F426-F88F-2033-1615F5622A76">
+<Column name="LANG_ID" id="8FD9C642-6162-F048-C38E-66CB65D3348D">
 <createdBy>Joel Mengolo</createdBy>
-<createdTime>2016-07-28 21:46:28 UTC</createdTime>
+<createdTime>2016-10-14 00:17:02 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,50 +18,13 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ID_PRODUCT_TYPE" id="9B82E3EE-BDAC-A3A1-9F83-16A07AA27D95">
-<createdBy>Joel Mengolo</createdBy>
-<createdTime>2016-08-15 22:05:28 UTC</createdTime>
-<ownerDesignName>pharmacyapper</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C04C8C4A-594F-0209-1CF7-DD4FEBADE399" referredColumn="689A049D-772B-FDB3-C503-57DAF0B73E93"/>
+<colAssociation fkAssociation="D94BC8E2-6BDD-3990-6946-2BDF1ABBA537" referredColumn="7A1A76C9-1724-FE31-928C-98BCFA88844B"/>
 </associations>
 </Column>
-<Column name="ID_MANUFACTURER" id="6F768715-E998-7E2A-891A-B816806FF8C3">
+<Column name="PERSON_ID" id="80CFDFEB-6D12-8EAB-FD75-F8FB28E4150A">
 <createdBy>Joel Mengolo</createdBy>
-<createdTime>2016-08-15 22:18:14 UTC</createdTime>
-<ownerDesignName>pharmacyapper</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A1F74898-4025-6706-747D-0AE017140BF8" referredColumn="09962B3E-32B7-260A-21CA-0D5DB991075F"/>
-</associations>
-</Column>
-<Column name="TRADE_NAME" id="ACB553F3-225F-A7D3-B90A-A8D6D04DF7A2">
-<createdBy>Joel Mengolo</createdBy>
-<createdTime>2016-08-15 22:20:39 UTC</createdTime>
-<ownerDesignName>pharmacyapper</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>500</dataTypeSize>
-<ownDataTypeParameters>500,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="TREATMENT" id="471EC811-20ED-5E64-CA58-4B9BED3F00FB">
-<createdBy>Joel Mengolo</createdBy>
-<createdTime>2016-09-13 03:25:30 UTC</createdTime>
+<createdTime>2016-10-14 00:17:02 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -69,50 +32,78 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28DC1A54-5152-4586-FCEE-91F075F11553" referredColumn="3BBF269D-E020-4B97-75C7-BEFEE7EDCACC"/>
+</associations>
 </Column>
-<Column name="GENERIC" id="323FEE15-1A55-A24A-2067-B66997EAB1EF">
+<Column name="READ" id="ECBAAA00-9E97-4933-B2C8-FE58346EC4AE">
 <createdBy>Joel Mengolo</createdBy>
-<createdTime>2016-09-13 03:39:00 UTC</createdTime>
+<createdTime>2016-10-14 00:17:02 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WRITTEN" id="3B8FCC86-DB78-F76D-014A-781401ED7807">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-10-14 00:17:02 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPOKEN" id="D9D9DD7C-1D97-B83D-D591-4FAF6BC2BCCA">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-10-14 00:17:02 UTC</createdTime>
+<ownerDesignName>pharmacyapper</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="12C3B0F9-F8AA-9703-09AC-0A2B69C0388F" name="MEDECINE_PK">
+<ind_PK_UK id="45F1D25D-7E54-631F-3BBD-3BBBE5362830" name="LANGUAGE_SKILLS_PK">
 <createdBy>Joel Mengolo</createdBy>
-<createdTime>2016-07-28 21:46:28 UTC</createdTime>
+<createdTime>2016-10-14 00:17:02 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="66C07618-F426-F88F-2033-1615F5622A76"/>
+<colUsage columnID="8FD9C642-6162-F048-C38E-66CB65D3348D"/>
+<colUsage columnID="80CFDFEB-6D12-8EAB-FD75-F8FB28E4150A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="21E6D18F-2781-07DF-5D5C-685BBDA6AB40" name="PRODUCT_PRODUCT_TYPE_FK">
+<ind_PK_UK id="0B2440FE-71C7-1C02-BCCC-1BA6369F9263" name="TABLE_23_PERSON_FK">
 <createdBy>Joel Mengolo</createdBy>
-<createdTime>2016-08-15 22:05:28 UTC</createdTime>
+<createdTime>2016-10-14 00:17:02 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9B82E3EE-BDAC-A3A1-9F83-16A07AA27D95"/>
+<colUsage columnID="80CFDFEB-6D12-8EAB-FD75-F8FB28E4150A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D78840CA-F926-52D0-F911-A7F87CD25869" name="PRODUCT_PRODUCT_MANU_FK">
+<ind_PK_UK id="3E9683E1-6F42-5EEA-733F-370D9BF0ECCC" name="LANGUAGE_SKILLS_LANGAGE_FK">
 <createdBy>Joel Mengolo</createdBy>
-<createdTime>2016-08-15 22:18:14 UTC</createdTime>
+<createdTime>2016-10-14 00:17:37 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6F768715-E998-7E2A-891A-B816806FF8C3"/>
+<colUsage columnID="8FD9C642-6162-F048-C38E-66CB65D3348D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

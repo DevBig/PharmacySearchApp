@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3E444DDA-4753-1FEC-DA12-E2840300B9A1" containerWithKeyObject="F94A6B64-A25D-C96E-70EC-CFB4E29FAA40" localFKIndex="3924D59C-C72B-E1EB-9901-A44B98549273" name="TABLE_11_COUNTRY_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5E67E0A3-E75E-9944-4EFC-E57D1DF614F4" containerWithKeyObject="F94A6B64-A25D-C96E-70EC-CFB4E29FAA40" localFKIndex="8334AD5B-3376-D04C-27D3-7C97E33F87E4" name="TOWN_COUNTRY_FK">
 <createdBy>Joel Mengolo</createdBy>
-<createdTime>2016-07-28 22:01:32 UTC</createdTime>
+<createdTime>2016-10-15 21:07:34 UTC</createdTime>
 <ownerDesignName>pharmacyapper</ownerDesignName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>7ABA22AE-4D8E-15F1-BF17-25EACB04FF80</referredTableID>

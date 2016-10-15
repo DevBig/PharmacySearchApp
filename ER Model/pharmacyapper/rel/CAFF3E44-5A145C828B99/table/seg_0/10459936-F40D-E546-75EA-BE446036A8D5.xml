@@ -16,7 +16,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="CD4F49E5-8CCF-56E1-A1F2-A208A24E4ACB" referredColumn="66C07618-F426-F88F-2033-1615F5622A76"/>
@@ -30,7 +30,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="C9B8C043-BA18-3B3D-CDC6-16D54B9ADA94" referredColumn="66C07618-F426-F88F-2033-1615F5622A76"/>
